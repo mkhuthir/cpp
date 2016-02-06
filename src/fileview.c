@@ -6,7 +6,7 @@ int main ( int argc, char *argv[] )
     {
         /* We print argv[0] assuming it is the program name */
 
-        printf( "usage: %s filename", argv[0] );
+        printf( "usage: %s filename\n", argv[0]);
     }
     else 
     {
