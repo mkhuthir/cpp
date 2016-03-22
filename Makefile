@@ -1,7 +1,16 @@
-all:
-	g++ src/fileview.c 	-o bin/fileview
-	g++ src/hello.c 	-o bin/hello
-	g++ src/forloop.c 	-o bin/forloop
+all: 	fileview hello forloop
 
+fileview:
+	gcc src/fileview.c 	-o bin/fileview
+
+hello:
+	gcc src/hello.c 	-o bin/hello
+
+forloop:
+	gcc src/forloop.c 	-o bin/forloop
+
+
+
+.PHONY: clean
 clean:
-	rm bin/*.*
+	rm -f bin/*
