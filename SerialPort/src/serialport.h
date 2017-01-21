@@ -4,7 +4,7 @@
 
 enum Baudrate
 {
-	B50	= 50,
+	B50		= 50,
 	B110	= 110,
 	B150	= 150,
 	B300	= 300,
@@ -24,9 +24,9 @@ enum Baudrate
 
 enum Stopbits
 {
-	one = ONESTOPBIT,
-	onePointFive = ONE5STOPBITS,
-	two = TWOSTOPBITS
+	one 			= ONESTOPBIT,
+	onePointFive	= ONE5STOPBITS,
+	two 			= TWOSTOPBITS
 };
 
 enum Paritycheck
@@ -48,8 +48,8 @@ void ErrorExit(LPTSTR lpszFunction);
 	\param stopbits		th nuber of stoppbits (one, onePointFive or two)
 	\param parity		the parity (even, odd, off or mark)
 	\return			HANDLE to the serial port
-	*/
-HANDLE openSerialPort(LPCSTR portname,enum Baudrate baudrate, enum Stopbits stopbits, enum Paritycheck parity);
+*/
+HANDLE openSP(LPCSTR portname,enum Baudrate baudrate, enum Stopbits stopbits, enum Paritycheck parity);
 
 /**
 	\brief Read data from the serial port
@@ -57,17 +57,21 @@ HANDLE openSerialPort(LPCSTR portname,enum Baudrate baudrate, enum Stopbits stop
 	\param buffer		pointer to the area where the read data will be written
 	\param buffersize	maximal size of the buffer area
 	\return				amount of data that was read
-	*/
-DWORD readFromSerialPort(HANDLE hSerial, char * buffer, int buffersize);
+*/
+DWORD readSP(HANDLE hSerial, char * buffer, int buffersize);
 /**
 	\brief write data to the serial port
 	\param hSerial	File HANDLE to the serial port
 	\param buffer	pointer to the area where the read data will be read
 	\param length	amount of data to be read
 	\return			amount of data that was written
-	*/
-DWORD writeToSerialPort(HANDLE hSerial, char * data, int length);
-
-void closeSerialPort(HANDLE hSerial);
+*/
+DWORD writeSP(HANDLE hSerial, char * data, int length);
+/**
+	\brief closes serial port
+	\param hSerial	File HANDLE to the serial port
+	\return			void
+*/
+void closeSP(HANDLE hSerial);
 
 #endif

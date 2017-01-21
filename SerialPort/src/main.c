@@ -7,23 +7,23 @@
 int main(void)
 {
 	puts("Connecting to serial port");
-	HANDLE h = openSerialPort("COM1",B9600,one,off);
+	HANDLE h = openSP("COM1",B9600,one,off);
 
 	char sendbuffer[] = "test";
 	char readbuffer[100];
 
 	puts("Writing to serial port");
 	//write test
-	int bytesWritten = writeToSerialPort(h,sendbuffer,strlen(sendbuffer));
+	int bytesWritten = writeSP(h,sendbuffer,strlen(sendbuffer));
 
 	printf("%d Bytes were written\n",bytesWritten);
 	//read something
 
-	int bytesRead = readFromSerialPort(h,readbuffer,99);
+	int bytesRead = readSP(h,readbuffer,99);
 	readbuffer[bytesRead]=0;
 
 	printf("%d Bytes were read:%s\n",bytesRead,readbuffer);
 
-	closeSerialPort(h);
+	closeSP(h);
     return 0;
 }
