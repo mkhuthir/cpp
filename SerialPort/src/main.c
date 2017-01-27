@@ -8,9 +8,9 @@ int main(void)
 {
 	//Open Port
 	puts("Connecting to serial port");
-	HANDLE h = openSP("COM5",B9600,one,off);
+	HANDLE h = openSP("COM1",B9600,one,off);
 
-	char sendbuffer[] = "test";
+	char sendbuffer[] = "Hello this is muthanna...any one there!";
 	char readbuffer[100];
 
 	//Write test
