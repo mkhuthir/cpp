@@ -2,9 +2,9 @@
  ============================================================================
  Name        : Simple_GTK.c
  Author      : Muthanna A. Attyah
- Version     :
+ Version     : 1.0
  Copyright   : (c) Muthanna 2017
- Description : Hello World in C, Ansi-style
+ Description : Simple GTK window in C, Ansi-style
  ============================================================================
  */
 
