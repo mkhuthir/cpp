@@ -1,3 +1,5 @@
+# by Muthanna A. Attyah 2016
+
 all: 	fileview hello forloop myHeaderMain
 
 fileview:
@@ -12,6 +14,7 @@ forloop:
 myHeaderMain:
 	gcc src/myHeaderMain.c src/myHeader.c -o bin/myHeaderMain
 
-.PHONY: clean
 clean:
 	rm -f bin/*
+
+.PHONY: clean
