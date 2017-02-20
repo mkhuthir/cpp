@@ -1,10 +1,13 @@
 # by Muthanna A. Attyah 2016
 
-all: 	fileview hello forloop myHeaderMain
+all: 	fileview hello forloop myHeaderMain espeak
 
 fileview:
 	gcc src/fileview.c 	-o bin/fileview
 
+espeak:
+	g++ src/espeak.cpp -o bin/espeak -l espeak -I /usr/include/espeak
+	
 hello:
 	gcc src/hello.c 	-o bin/hello
 
