@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mkhuthir/cpp/gtk+/src/button.cpp" "/home/mkhuthir/cpp/gtk+/CMakeFiles/button.dir/src/button.cpp.o"
+  "/home/mkhuthir/cpp/GTK+/src/button.cpp" "/home/mkhuthir/cpp/GTK+/CMakeFiles/button.dir/src/button.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

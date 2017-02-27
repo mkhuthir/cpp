@@ -1,5 +1,5 @@
-/home/mkhuthir/cpp/gtk+/CMakeFiles/edit_cache.dir
-/home/mkhuthir/cpp/gtk+/CMakeFiles/win.dir
-/home/mkhuthir/cpp/gtk+/CMakeFiles/label.dir
-/home/mkhuthir/cpp/gtk+/CMakeFiles/button.dir
-/home/mkhuthir/cpp/gtk+/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/cpp/GTK+/CMakeFiles/edit_cache.dir
+/home/mkhuthir/cpp/GTK+/CMakeFiles/win.dir
+/home/mkhuthir/cpp/GTK+/CMakeFiles/label.dir
+/home/mkhuthir/cpp/GTK+/CMakeFiles/button.dir
+/home/mkhuthir/cpp/GTK+/CMakeFiles/rebuild_cache.dir

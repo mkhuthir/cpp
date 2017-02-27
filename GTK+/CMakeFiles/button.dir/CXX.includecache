@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/gtk+/src/button.cpp
+/home/mkhuthir/cpp/GTK+/src/button.cpp
 gtk/gtk.h
 -
 

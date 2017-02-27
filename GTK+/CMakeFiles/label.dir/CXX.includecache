@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/gtk+/src/label.cpp
+/home/mkhuthir/cpp/GTK+/src/label.cpp
 gtk/gtk.h
 -
 

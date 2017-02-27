@@ -172,7 +172,7 @@ Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=Qt5Widgets_DIR-NOTFOUND
 
 //Value Computed by CMake
 Qt_BINARY_DIR:STATIC=/home/mkhuthir/cpp/Qt
