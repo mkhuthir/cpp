@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/input.dir/src/input.cpp.o  -o bin/input 

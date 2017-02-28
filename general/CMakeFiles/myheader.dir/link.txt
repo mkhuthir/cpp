@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/myheader.dir/src/myheader.c.o CMakeFiles/myheader.dir/src/myheadermain.c.o  -o bin/myheader 

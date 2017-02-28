@@ -1,0 +1,8 @@
+/home/mkhuthir/cpp/general/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/cpp/general/CMakeFiles/input.dir
+/home/mkhuthir/cpp/general/CMakeFiles/edit_cache.dir
+/home/mkhuthir/cpp/general/CMakeFiles/hello2.dir
+/home/mkhuthir/cpp/general/CMakeFiles/fileview.dir
+/home/mkhuthir/cpp/general/CMakeFiles/myheader.dir
+/home/mkhuthir/cpp/general/CMakeFiles/forloop.dir
+/home/mkhuthir/cpp/general/CMakeFiles/hello.dir
