@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/mkhuthir/cpp/Qt
 CMAKE_BINARY_DIR = /home/mkhuthir/cpp/Qt
 
 #=============================================================================
+# Target rules for target CMakeFiles/qimage.dir
+
+# All Build rule for target.
+CMakeFiles/qimage.dir/all:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/depend
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/Qt/CMakeFiles --progress-num=5,6 "Built target qimage"
+.PHONY : CMakeFiles/qimage.dir/all
+
+# Include target in all.
+all: CMakeFiles/qimage.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qimage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/Qt/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/qimage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/Qt/CMakeFiles 0
+.PHONY : CMakeFiles/qimage.dir/rule
+
+# Convenience name for target.
+qimage: CMakeFiles/qimage.dir/rule
+
+.PHONY : qimage
+
+# clean rule for target.
+CMakeFiles/qimage.dir/clean:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/clean
+.PHONY : CMakeFiles/qimage.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/qimage.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/win.dir
 
 # All Build rule for target.
 CMakeFiles/win.dir/all:
 	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/depend
 	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/Qt/CMakeFiles --progress-num=7,8 "Built target win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/Qt/CMakeFiles --progress-num=9,10 "Built target win"
 .PHONY : CMakeFiles/win.dir/all
 
 # Include target in all.
@@ -177,7 +214,7 @@ clean: CMakeFiles/button2.dir/clean
 CMakeFiles/slider.dir/all:
 	$(MAKE) -f CMakeFiles/slider.dir/build.make CMakeFiles/slider.dir/depend
 	$(MAKE) -f CMakeFiles/slider.dir/build.make CMakeFiles/slider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/Qt/CMakeFiles --progress-num=5,6 "Built target slider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/Qt/CMakeFiles --progress-num=7,8 "Built target slider"
 .PHONY : CMakeFiles/slider.dir/all
 
 # Include target in all.

@@ -14,11 +14,13 @@ ADD_EXECUTABLE(win      src/win.cpp)
 ADD_EXECUTABLE(button   src/button.cpp)
 ADD_EXECUTABLE(button2  src/button2.cpp)
 ADD_EXECUTABLE(slider   src/slider.cpp)
+ADD_EXECUTABLE(qimage   src/qimage.cpp)
 
 TARGET_LINK_LIBRARIES(win       Qt5::Widgets)
 TARGET_LINK_LIBRARIES(button    Qt5::Widgets)
 TARGET_LINK_LIBRARIES(button2   Qt5::Widgets)
 TARGET_LINK_LIBRARIES(slider    Qt5::Widgets)
+TARGET_LINK_LIBRARIES(qimage    Qt5::Widgets)
 
 
 

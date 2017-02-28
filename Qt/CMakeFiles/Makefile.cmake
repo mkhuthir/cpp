@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/qimage.dir/DependInfo.cmake"
   "CMakeFiles/win.dir/DependInfo.cmake"
   "CMakeFiles/button.dir/DependInfo.cmake"
   "CMakeFiles/button2.dir/DependInfo.cmake"

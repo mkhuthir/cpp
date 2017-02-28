@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named qimage
+
+# Build rule for target.
+qimage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qimage
+.PHONY : qimage
+
+# fast build rule for target.
+qimage/fast:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/build
+.PHONY : qimage/fast
+
+#=============================================================================
 # Target rules for targets named win
 
 # Build rule for target.
@@ -216,6 +229,33 @@ src/button2.cpp.s:
 	$(MAKE) -f CMakeFiles/button2.dir/build.make CMakeFiles/button2.dir/src/button2.cpp.s
 .PHONY : src/button2.cpp.s
 
+src/qimage.o: src/qimage.cpp.o
+
+.PHONY : src/qimage.o
+
+# target to build an object file
+src/qimage.cpp.o:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/src/qimage.cpp.o
+.PHONY : src/qimage.cpp.o
+
+src/qimage.i: src/qimage.cpp.i
+
+.PHONY : src/qimage.i
+
+# target to preprocess a source file
+src/qimage.cpp.i:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/src/qimage.cpp.i
+.PHONY : src/qimage.cpp.i
+
+src/qimage.s: src/qimage.cpp.s
+
+.PHONY : src/qimage.s
+
+# target to generate assembly for a file
+src/qimage.cpp.s:
+	$(MAKE) -f CMakeFiles/qimage.dir/build.make CMakeFiles/qimage.dir/src/qimage.cpp.s
+.PHONY : src/qimage.cpp.s
+
 src/slider.o: src/slider.cpp.o
 
 .PHONY : src/slider.o
@@ -278,6 +318,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... qimage"
 	@echo "... win"
 	@echo "... button"
 	@echo "... button2"
@@ -288,6 +329,9 @@ help:
 	@echo "... src/button2.o"
 	@echo "... src/button2.i"
 	@echo "... src/button2.s"
+	@echo "... src/qimage.o"
+	@echo "... src/qimage.i"
+	@echo "... src/qimage.s"
 	@echo "... src/slider.o"
 	@echo "... src/slider.i"
 	@echo "... src/slider.s"
