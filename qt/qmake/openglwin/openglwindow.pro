@@ -1,4 +1,8 @@
-include(openglwindow.pri)
+INCLUDEPATH += $$PWD
+
+SOURCES += $$PWD/openglwindow.cpp
+HEADERS += $$PWD/openglwindow.h
+
 
 SOURCES += \
     main.cpp
