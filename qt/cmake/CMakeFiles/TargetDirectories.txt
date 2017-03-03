@@ -1,0 +1,7 @@
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/edit_cache.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/qimage.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/win.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/button.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/button2.dir
+/home/mkhuthir/cpp/Qt/cmake/CMakeFiles/slider.dir
