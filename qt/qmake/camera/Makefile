@@ -33,7 +33,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = camera1.0.0
-DISTDIR = /home/mkhuthir/cpp/QtQmake/camera/.tmp/camera1.0.0
+DISTDIR = /home/mkhuthir/cpp/qt/qmake/camera/.tmp/camera1.0.0
 LINK          = g++
 LFLAGS        = -m64 -Wl,-O1 -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu
 LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lQt5MultimediaWidgets -lQt5Multimedia -lQt5Widgets -lQt5Gui -lQt5Network -lQt5Core -lGL -lpthread 
@@ -315,13 +315,13 @@ compiler_moc_header_make_all: moc_camera.cpp moc_imagesettings.cpp moc_videosett
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_camera.cpp moc_imagesettings.cpp moc_videosettings.cpp
 moc_camera.cpp: camera.h
-	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/QtQmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include camera.h -o moc_camera.cpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/qt/qmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include camera.h -o moc_camera.cpp
 
 moc_imagesettings.cpp: imagesettings.h
-	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/QtQmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include imagesettings.h -o moc_imagesettings.cpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/qt/qmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include imagesettings.h -o moc_imagesettings.cpp
 
 moc_videosettings.cpp: videosettings.h
-	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/QtQmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include videosettings.h -o moc_videosettings.cpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mkhuthir/cpp/qt/qmake/camera -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtMultimedia -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include videosettings.h -o moc_videosettings.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -377,13 +377,13 @@ moc_videosettings.o: moc_videosettings.cpp
 ####### Install
 
 install_target: first FORCE
-	@test -d $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera || mkdir -p $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera
-	-$(INSTALL_PROGRAM) $(QMAKE_TARGET) $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera/$(QMAKE_TARGET)
-	-$(STRIP) $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera/$(QMAKE_TARGET)
+	@test -d $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin || mkdir -p $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin
+	-$(INSTALL_PROGRAM) $(QMAKE_TARGET) $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin/$(QMAKE_TARGET)
+	-$(STRIP) $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin/$(QMAKE_TARGET)
 
 uninstall_target: FORCE
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera/$(QMAKE_TARGET)
-	-$(DEL_DIR) $(INSTALL_ROOT)/usr/lib/x86_64-linux-gnu/qt5/examples/multimediawidgets/camera/ 
+	-$(DEL_FILE) $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin/$(QMAKE_TARGET)
+	-$(DEL_DIR) $(INSTALL_ROOT)/home/mkhuthir/cpp/qt/qmake/camera/bin/ 
 
 
 install: install_target  FORCE

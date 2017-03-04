@@ -3,9 +3,9 @@ TARGET = oglwin
 INCLUDEPATH += $$PWD
 
 HEADERS += \
-    openglwindow.h
+    oglwin.h
 
 SOURCES += \
     main.cpp \
-    openglwindow.cpp
+    oglwin.cpp
 

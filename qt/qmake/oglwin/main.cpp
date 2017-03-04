@@ -1,17 +1,19 @@
 
-#include "openglwindow.h"
 
-#include <QtGui/QGuiApplication>
-#include <QtGui/QMatrix4x4>
-#include <QtGui/QOpenGLShaderProgram>
-#include <QtGui/QScreen>
+#include "oglwin.h"
+
+#include <QGuiApplication>
+#include <QMatrix4x4>
+#include <QOpenGLShaderProgram>
+#include <QScreen>
 
 #include <QtCore/qmath.h>
 
-class TriangleWindow : public OpenGLWindow
+class MyWin : public OpenGLWindow
 {
 public:
-    TriangleWindow();
+    MyWin
+();
 
     void initialize() override;
     void render() override;
@@ -25,7 +27,7 @@ private:
     int m_frame;
 };
 
-TriangleWindow::TriangleWindow()
+MyWin::MyWin()
     : m_program(0)
     , m_frame(0)
 {
@@ -38,7 +40,8 @@ int main(int argc, char **argv)
     QSurfaceFormat format;
     format.setSamples(16);
 
-    TriangleWindow window;
+    MyWin
+ window;
     window.setFormat(format);
     window.resize(640, 480);
     window.show();
@@ -65,7 +68,7 @@ static const char *fragmentShaderSource =
     "   gl_FragColor = col;\n"
     "}\n";
 
-void TriangleWindow::initialize()
+void MyWin::initialize()
 {
     m_program = new QOpenGLShaderProgram(this);
     m_program->addShaderFromSourceCode(QOpenGLShader::Vertex, vertexShaderSource);
@@ -76,7 +79,7 @@ void TriangleWindow::initialize()
     m_matrixUniform = m_program->uniformLocation("matrix");
 }
 
-void TriangleWindow::render()
+void MyWin::render()
 {
     const qreal retinaScale = devicePixelRatio();
     glViewport(0, 0, width() * retinaScale, height() * retinaScale);

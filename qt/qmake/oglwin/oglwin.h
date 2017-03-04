@@ -1,11 +1,11 @@
 
-#include <QtGui/QWindow>
-#include <QtGui/QOpenGLFunctions>
+#include <QWindow>
+#include <QOpenGLFunctions>
 
 QT_BEGIN_NAMESPACE
-class QPainter;
-class QOpenGLContext;
-class QOpenGLPaintDevice;
+    class QPainter;
+    class QOpenGLContext;
+    class QOpenGLPaintDevice;
 QT_END_NAMESPACE
 
 class OpenGLWindow : public QWindow, protected QOpenGLFunctions

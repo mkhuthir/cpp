@@ -1,3 +1,4 @@
+
 /****************************************************************************
 **
 ** Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).
@@ -38,15 +39,45 @@
 **
 ****************************************************************************/
 
-#include <QApplication>
-#include "glwidget.h"
+#ifndef GLWIDGET_H
+#define GLWIDGET_H
 
-int main(int argc, char **argv)
+#include <QGLWidget>
+#include <QGLShaderProgram>
+
+//! [0]
+class GlWidget : public QGLWidget
 {
-    QApplication a(argc, argv);
+    //! [0]
+    Q_OBJECT
 
-    GlWidget w;
-    w.show();
+public:
+    GlWidget(QWidget *parent = 0);
+    ~GlWidget();
+    QSize sizeHint() const;
 
-    return a.exec();
-}
+    //! [1]
+protected:
+    //! [1]
+    void initializeGL();
+    void resizeGL(int width, int height);
+    void paintGL();
+    //! [2]
+    void mousePressEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+    void wheelEvent(QWheelEvent *event);
+
+private:
+    //! [2]
+    QMatrix4x4 pMatrix;
+    QGLShaderProgram shaderProgram;
+    QVector<QVector3D> vertices;
+    //! [3]
+    double alpha;
+    double beta;
+    double distance;
+    QPoint lastMousePosition;
+};
+//! [3]
+
+#endif // GLWIDGET_H

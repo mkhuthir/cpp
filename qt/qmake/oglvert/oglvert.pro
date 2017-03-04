@@ -1,6 +1,6 @@
 QT += core gui opengl
 
-TARGET = cube
+TARGET = oglvert
 
 TEMPLATE = app
 

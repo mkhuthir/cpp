@@ -1,6 +1,6 @@
 QT += core gui opengl
 
-TARGET = cube
+TARGET = colorcube
 
 TEMPLATE = app
 
