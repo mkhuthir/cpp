@@ -39,7 +39,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Coordinates:</string>
+      <string>Rotation:</string>
      </property>
     </widget>
    </item>
@@ -55,7 +55,7 @@
      <item>
       <widget class="QSlider" name="xSlider">
        <property name="maximum">
-        <number>360</number>
+        <number>5760</number>
        </property>
        <property name="singleStep">
         <number>16</number>
@@ -70,7 +70,7 @@
         <enum>QSlider::TicksAbove</enum>
        </property>
        <property name="tickInterval">
-        <number>15</number>
+        <number>240</number>
        </property>
       </widget>
      </item>
@@ -88,7 +88,7 @@
      <item>
       <widget class="QSlider" name="ySlider">
        <property name="maximum">
-        <number>360</number>
+        <number>5760</number>
        </property>
        <property name="singleStep">
         <number>16</number>
@@ -103,7 +103,7 @@
         <enum>QSlider::TicksAbove</enum>
        </property>
        <property name="tickInterval">
-        <number>15</number>
+        <number>240</number>
        </property>
       </widget>
      </item>
@@ -121,7 +121,7 @@
      <item>
       <widget class="QSlider" name="zSlider">
        <property name="maximum">
-        <number>360</number>
+        <number>5760</number>
        </property>
        <property name="singleStep">
         <number>16</number>
@@ -136,7 +136,7 @@
         <enum>QSlider::TicksAbove</enum>
        </property>
        <property name="tickInterval">
-        <number>15</number>
+        <number>240</number>
        </property>
       </widget>
      </item>
