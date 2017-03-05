@@ -1,11 +1,9 @@
 
 #include <QtWidgets>
 #include <QtOpenGL>
-
 #include "oglwidget.h"
 
-#include "GL/gl.h"
-#include "GL/glu.h"
+
 #include "teapot.h"
 
 OpenGLWidget::OpenGLWidget(QWidget *parent) : QGLWidget(QGLFormat(QGL::SampleBuffers), parent)
