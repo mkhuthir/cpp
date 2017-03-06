@@ -102,9 +102,9 @@ int main(int argc, char *argv[])
   glutDisplayFunc(displayCB);
 
   //  init GL  
-  glClearColor(1.0, 1.0, 1.0, 0.0);
-  glColor3f(0.0, 0.0, 0.0);
-  glLineWidth(3.0);
+  glClearColor(0.0, 0.0, 0.0, 0.0); // black backgroud
+  glColor3f(1.0, 0.0, 0.0);         // red line
+  glLineWidth(1.0);                 // thin line
 
   // start the GLUT main loop  
   glutMainLoop();
