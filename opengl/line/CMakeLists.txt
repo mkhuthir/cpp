@@ -26,5 +26,5 @@ endif(NOT OPENGL_FOUND)
 
 # Target
 
-add_executable(main main.c)
+add_executable(main main.cpp)
 target_link_libraries(main ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} )
