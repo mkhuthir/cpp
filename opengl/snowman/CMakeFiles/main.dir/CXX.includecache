@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mkhuthir/cpp/opengl/snowman/main.cpp
+stdlib.h
+-
+math.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+

@@ -1,0 +1,3 @@
+/home/mkhuthir/cpp/opengl/snowman/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/cpp/opengl/snowman/CMakeFiles/edit_cache.dir
+/home/mkhuthir/cpp/opengl/snowman/CMakeFiles/main.dir

@@ -1,0 +1,3 @@
+/home/mkhuthir/cpp/opengl/house2/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/cpp/opengl/house2/CMakeFiles/edit_cache.dir
+/home/mkhuthir/cpp/opengl/house2/CMakeFiles/main.dir
