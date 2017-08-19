@@ -1,4 +1,4 @@
-# Install script for directory: /home/mkhuthir/cpp/GTK+
+# Install script for directory: /home/mkhuthir/C/gtk+
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mkhuthir/cpp/GTK+/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mkhuthir/C/gtk+/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

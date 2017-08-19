@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mkhuthir/cpp/GTK+/src/label.cpp" "/home/mkhuthir/cpp/GTK+/CMakeFiles/label.dir/src/label.cpp.o"
+  "/home/mkhuthir/C/gtk+/src/label.cpp" "/home/mkhuthir/C/gtk+/CMakeFiles/label.dir/src/label.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
   "/usr/include/gio-unix-2.0"
   "/usr/include/mirclient"
-  "/usr/include/mircommon"
+  "/usr/include/mircore"
   "/usr/include/mircookie"
   "/usr/include/cairo"
   "/usr/include/pango-1.0"
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/atk-1.0"
   "/usr/include/pixman-1"
   "/usr/include/freetype2"
-  "/usr/include/libpng16"
+  "/usr/include/libpng12"
   "/usr/include/gdk-pixbuf-2.0"
   "/usr/include/glib-2.0"
   "/usr/lib/x86_64-linux-gnu/glib-2.0/include"

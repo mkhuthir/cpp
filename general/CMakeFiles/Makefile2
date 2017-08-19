@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mkhuthir/cpp/general
+CMAKE_SOURCE_DIR = /home/mkhuthir/C/general
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mkhuthir/cpp/general
+CMAKE_BINARY_DIR = /home/mkhuthir/C/general
 
 #=============================================================================
 # Target rules for target CMakeFiles/input.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/mkhuthir/cpp/general
 CMakeFiles/input.dir/all:
 	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/depend
 	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=9,10 "Built target input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=9,10 "Built target input"
 .PHONY : CMakeFiles/input.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/input.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/input.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/input.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/input.dir/clean
 CMakeFiles/hello2.dir/all:
 	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/depend
 	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=7,8 "Built target hello2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=7,8 "Built target hello2"
 .PHONY : CMakeFiles/hello2.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/hello2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/hello2.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/hello2.dir/clean
 CMakeFiles/fileview.dir/all:
 	$(MAKE) -f CMakeFiles/fileview.dir/build.make CMakeFiles/fileview.dir/depend
 	$(MAKE) -f CMakeFiles/fileview.dir/build.make CMakeFiles/fileview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=1,2 "Built target fileview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=1,2 "Built target fileview"
 .PHONY : CMakeFiles/fileview.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/fileview.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fileview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fileview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/fileview.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ clean: CMakeFiles/fileview.dir/clean
 CMakeFiles/myheader.dir/all:
 	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/depend
 	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=11,12,13 "Built target myheader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=11,12,13 "Built target myheader"
 .PHONY : CMakeFiles/myheader.dir/all
 
 # Include target in all.
@@ -187,9 +187,9 @@ all: CMakeFiles/myheader.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myheader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myheader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/myheader.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ clean: CMakeFiles/myheader.dir/clean
 CMakeFiles/forloop.dir/all:
 	$(MAKE) -f CMakeFiles/forloop.dir/build.make CMakeFiles/forloop.dir/depend
 	$(MAKE) -f CMakeFiles/forloop.dir/build.make CMakeFiles/forloop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=3,4 "Built target forloop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=3,4 "Built target forloop"
 .PHONY : CMakeFiles/forloop.dir/all
 
 # Include target in all.
@@ -224,9 +224,9 @@ all: CMakeFiles/forloop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/forloop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forloop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/forloop.dir/rule
 
 # Convenience name for target.
@@ -251,7 +251,7 @@ clean: CMakeFiles/forloop.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/cpp/general/CMakeFiles --progress-num=5,6 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=5,6 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Include target in all.
@@ -261,9 +261,9 @@ all: CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/cpp/general/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
 .PHONY : CMakeFiles/hello.dir/rule
 
 # Convenience name for target.

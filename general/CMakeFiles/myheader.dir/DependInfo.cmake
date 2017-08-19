@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mkhuthir/cpp/general/src/myheader.c" "/home/mkhuthir/cpp/general/CMakeFiles/myheader.dir/src/myheader.c.o"
-  "/home/mkhuthir/cpp/general/src/myheadermain.c" "/home/mkhuthir/cpp/general/CMakeFiles/myheader.dir/src/myheadermain.c.o"
+  "/home/mkhuthir/C/general/src/myheader.c" "/home/mkhuthir/C/general/CMakeFiles/myheader.dir/src/myheader.c.o"
+  "/home/mkhuthir/C/general/src/myheadermain.c" "/home/mkhuthir/C/general/CMakeFiles/myheader.dir/src/myheadermain.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
