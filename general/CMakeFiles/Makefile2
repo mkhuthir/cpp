@@ -60,76 +60,39 @@ CMAKE_SOURCE_DIR = /home/mkhuthir/C/general
 CMAKE_BINARY_DIR = /home/mkhuthir/C/general
 
 #=============================================================================
-# Target rules for target CMakeFiles/input.dir
+# Target rules for target CMakeFiles/myheader.dir
 
 # All Build rule for target.
-CMakeFiles/input.dir/all:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/depend
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=9,10 "Built target input"
-.PHONY : CMakeFiles/input.dir/all
+CMakeFiles/myheader.dir/all:
+	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/depend
+	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=9,10,11 "Built target myheader"
+.PHONY : CMakeFiles/myheader.dir/all
 
 # Include target in all.
-all: CMakeFiles/input.dir/all
+all: CMakeFiles/myheader.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/input.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/input.dir/all
+CMakeFiles/myheader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myheader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
-.PHONY : CMakeFiles/input.dir/rule
+.PHONY : CMakeFiles/myheader.dir/rule
 
 # Convenience name for target.
-input: CMakeFiles/input.dir/rule
+myheader: CMakeFiles/myheader.dir/rule
 
-.PHONY : input
-
-# clean rule for target.
-CMakeFiles/input.dir/clean:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/clean
-.PHONY : CMakeFiles/input.dir/clean
+.PHONY : myheader
 
 # clean rule for target.
-clean: CMakeFiles/input.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello2.dir
-
-# All Build rule for target.
-CMakeFiles/hello2.dir/all:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/depend
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=7,8 "Built target hello2"
-.PHONY : CMakeFiles/hello2.dir/all
-
-# Include target in all.
-all: CMakeFiles/hello2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
-.PHONY : CMakeFiles/hello2.dir/rule
-
-# Convenience name for target.
-hello2: CMakeFiles/hello2.dir/rule
-
-.PHONY : hello2
+CMakeFiles/myheader.dir/clean:
+	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/clean
+.PHONY : CMakeFiles/myheader.dir/clean
 
 # clean rule for target.
-CMakeFiles/hello2.dir/clean:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/clean
-.PHONY : CMakeFiles/hello2.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/hello2.dir/clean
+clean: CMakeFiles/myheader.dir/clean
 
 .PHONY : clean
 
@@ -171,39 +134,39 @@ clean: CMakeFiles/fileview.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/myheader.dir
+# Target rules for target CMakeFiles/getoption.dir
 
 # All Build rule for target.
-CMakeFiles/myheader.dir/all:
-	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/depend
-	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=11,12,13 "Built target myheader"
-.PHONY : CMakeFiles/myheader.dir/all
+CMakeFiles/getoption.dir/all:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/depend
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=5,6 "Built target getoption"
+.PHONY : CMakeFiles/getoption.dir/all
 
 # Include target in all.
-all: CMakeFiles/myheader.dir/all
+all: CMakeFiles/getoption.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/myheader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myheader.dir/all
+CMakeFiles/getoption.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/getoption.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/general/CMakeFiles 0
-.PHONY : CMakeFiles/myheader.dir/rule
+.PHONY : CMakeFiles/getoption.dir/rule
 
 # Convenience name for target.
-myheader: CMakeFiles/myheader.dir/rule
+getoption: CMakeFiles/getoption.dir/rule
 
-.PHONY : myheader
-
-# clean rule for target.
-CMakeFiles/myheader.dir/clean:
-	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/clean
-.PHONY : CMakeFiles/myheader.dir/clean
+.PHONY : getoption
 
 # clean rule for target.
-clean: CMakeFiles/myheader.dir/clean
+CMakeFiles/getoption.dir/clean:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/clean
+.PHONY : CMakeFiles/getoption.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/getoption.dir/clean
 
 .PHONY : clean
 
@@ -251,7 +214,7 @@ clean: CMakeFiles/forloop.dir/clean
 CMakeFiles/hello.dir/all:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=5,6 "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=7,8 "Built target hello"
 .PHONY : CMakeFiles/hello.dir/all
 
 # Include target in all.

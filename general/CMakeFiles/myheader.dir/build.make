@@ -60,15 +60,15 @@ include CMakeFiles/myheader.dir/flags.make
 CMakeFiles/myheader.dir/src/myheader.c.o: CMakeFiles/myheader.dir/flags.make
 CMakeFiles/myheader.dir/src/myheader.c.o: src/myheader.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/myheader.dir/src/myheader.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myheader.dir/src/myheader.c.o   -c /home/mkhuthir/C/general/src/myheader.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myheader.dir/src/myheader.c.o   -c /home/mkhuthir/C/general/src/myheader.c
 
 CMakeFiles/myheader.dir/src/myheader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myheader.dir/src/myheader.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/myheader.c > CMakeFiles/myheader.dir/src/myheader.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/myheader.c > CMakeFiles/myheader.dir/src/myheader.c.i
 
 CMakeFiles/myheader.dir/src/myheader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myheader.dir/src/myheader.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/myheader.c -o CMakeFiles/myheader.dir/src/myheader.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/myheader.c -o CMakeFiles/myheader.dir/src/myheader.c.s
 
 CMakeFiles/myheader.dir/src/myheader.c.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/myheader.dir/src/myheader.c.o.provides.build: CMakeFiles/myheader.dir
 CMakeFiles/myheader.dir/src/myheadermain.c.o: CMakeFiles/myheader.dir/flags.make
 CMakeFiles/myheader.dir/src/myheadermain.c.o: src/myheadermain.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/myheader.dir/src/myheadermain.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myheader.dir/src/myheadermain.c.o   -c /home/mkhuthir/C/general/src/myheadermain.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/myheader.dir/src/myheadermain.c.o   -c /home/mkhuthir/C/general/src/myheadermain.c
 
 CMakeFiles/myheader.dir/src/myheadermain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myheader.dir/src/myheadermain.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/myheadermain.c > CMakeFiles/myheader.dir/src/myheadermain.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/myheadermain.c > CMakeFiles/myheader.dir/src/myheadermain.c.i
 
 CMakeFiles/myheader.dir/src/myheadermain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myheader.dir/src/myheadermain.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/myheadermain.c -o CMakeFiles/myheader.dir/src/myheadermain.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/myheadermain.c -o CMakeFiles/myheader.dir/src/myheadermain.c.s
 
 CMakeFiles/myheader.dir/src/myheadermain.c.o.requires:
 

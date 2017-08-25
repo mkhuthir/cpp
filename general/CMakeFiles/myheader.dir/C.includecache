@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/general/include/myHeader.h
+/home/mkhuthir/C/general/include/myHeader.h
 
-/home/mkhuthir/cpp/general/src/myheader.c
+/home/mkhuthir/C/general/src/myheader.c
 ../include/myHeader.h
-/home/mkhuthir/cpp/general/include/myHeader.h
+/home/mkhuthir/C/general/include/myHeader.h
 
-/home/mkhuthir/cpp/general/src/myheadermain.c
+/home/mkhuthir/C/general/src/myheadermain.c
 stdio.h
 -
 ../include/myHeader.h
-/home/mkhuthir/cpp/general/include/myHeader.h
+/home/mkhuthir/C/general/include/myHeader.h
 

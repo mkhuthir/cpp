@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/C/general/src/hello.c
+/home/mkhuthir/C/general/src/getoption.c
+ctype.h
+-
 stdio.h
+-
+stdlib.h
+-
+unistd.h
 -
 

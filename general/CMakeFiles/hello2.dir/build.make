@@ -60,15 +60,15 @@ include CMakeFiles/hello2.dir/flags.make
 CMakeFiles/hello2.dir/src/hello2.cpp.o: CMakeFiles/hello2.dir/flags.make
 CMakeFiles/hello2.dir/src/hello2.cpp.o: src/hello2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello2.dir/src/hello2.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello2.dir/src/hello2.cpp.o -c /home/mkhuthir/C/general/src/hello2.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello2.dir/src/hello2.cpp.o -c /home/mkhuthir/C/general/src/hello2.cpp
 
 CMakeFiles/hello2.dir/src/hello2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello2.dir/src/hello2.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mkhuthir/C/general/src/hello2.cpp > CMakeFiles/hello2.dir/src/hello2.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mkhuthir/C/general/src/hello2.cpp > CMakeFiles/hello2.dir/src/hello2.cpp.i
 
 CMakeFiles/hello2.dir/src/hello2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello2.dir/src/hello2.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mkhuthir/C/general/src/hello2.cpp -o CMakeFiles/hello2.dir/src/hello2.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mkhuthir/C/general/src/hello2.cpp -o CMakeFiles/hello2.dir/src/hello2.cpp.s
 
 CMakeFiles/hello2.dir/src/hello2.cpp.o.requires:
 

@@ -1,1 +1,1 @@
-/usr/bin/cc     CMakeFiles/fileview.dir/src/fileview.c.o  -o bin/fileview 
+/usr/bin/gcc     CMakeFiles/fileview.dir/src/fileview.c.o  -o bin/fileview 

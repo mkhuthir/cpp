@@ -1,8 +1,7 @@
-/home/mkhuthir/C/general/CMakeFiles/rebuild_cache.dir
-/home/mkhuthir/C/general/CMakeFiles/input.dir
 /home/mkhuthir/C/general/CMakeFiles/edit_cache.dir
-/home/mkhuthir/C/general/CMakeFiles/hello2.dir
-/home/mkhuthir/C/general/CMakeFiles/fileview.dir
+/home/mkhuthir/C/general/CMakeFiles/rebuild_cache.dir
 /home/mkhuthir/C/general/CMakeFiles/myheader.dir
+/home/mkhuthir/C/general/CMakeFiles/fileview.dir
+/home/mkhuthir/C/general/CMakeFiles/getoption.dir
 /home/mkhuthir/C/general/CMakeFiles/forloop.dir
 /home/mkhuthir/C/general/CMakeFiles/hello.dir

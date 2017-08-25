@@ -60,15 +60,15 @@ include CMakeFiles/fileview.dir/flags.make
 CMakeFiles/fileview.dir/src/fileview.c.o: CMakeFiles/fileview.dir/flags.make
 CMakeFiles/fileview.dir/src/fileview.c.o: src/fileview.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fileview.dir/src/fileview.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fileview.dir/src/fileview.c.o   -c /home/mkhuthir/C/general/src/fileview.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fileview.dir/src/fileview.c.o   -c /home/mkhuthir/C/general/src/fileview.c
 
 CMakeFiles/fileview.dir/src/fileview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fileview.dir/src/fileview.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/fileview.c > CMakeFiles/fileview.dir/src/fileview.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/fileview.c > CMakeFiles/fileview.dir/src/fileview.c.i
 
 CMakeFiles/fileview.dir/src/fileview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fileview.dir/src/fileview.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/fileview.c -o CMakeFiles/fileview.dir/src/fileview.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/fileview.c -o CMakeFiles/fileview.dir/src/fileview.c.s
 
 CMakeFiles/fileview.dir/src/fileview.c.o.requires:
 

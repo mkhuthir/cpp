@@ -60,15 +60,15 @@ include CMakeFiles/input.dir/flags.make
 CMakeFiles/input.dir/src/input.cpp.o: CMakeFiles/input.dir/flags.make
 CMakeFiles/input.dir/src/input.cpp.o: src/input.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/input.dir/src/input.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/input.dir/src/input.cpp.o -c /home/mkhuthir/C/general/src/input.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/input.dir/src/input.cpp.o -c /home/mkhuthir/C/general/src/input.cpp
 
 CMakeFiles/input.dir/src/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/input.dir/src/input.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mkhuthir/C/general/src/input.cpp > CMakeFiles/input.dir/src/input.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mkhuthir/C/general/src/input.cpp > CMakeFiles/input.dir/src/input.cpp.i
 
 CMakeFiles/input.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/input.dir/src/input.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mkhuthir/C/general/src/input.cpp -o CMakeFiles/input.dir/src/input.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mkhuthir/C/general/src/input.cpp -o CMakeFiles/input.dir/src/input.cpp.s
 
 CMakeFiles/input.dir/src/input.cpp.o.requires:
 

@@ -60,15 +60,15 @@ include CMakeFiles/forloop.dir/flags.make
 CMakeFiles/forloop.dir/src/forloop.c.o: CMakeFiles/forloop.dir/flags.make
 CMakeFiles/forloop.dir/src/forloop.c.o: src/forloop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/forloop.dir/src/forloop.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/forloop.dir/src/forloop.c.o   -c /home/mkhuthir/C/general/src/forloop.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/forloop.dir/src/forloop.c.o   -c /home/mkhuthir/C/general/src/forloop.c
 
 CMakeFiles/forloop.dir/src/forloop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/forloop.dir/src/forloop.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/forloop.c > CMakeFiles/forloop.dir/src/forloop.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/forloop.c > CMakeFiles/forloop.dir/src/forloop.c.i
 
 CMakeFiles/forloop.dir/src/forloop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/forloop.dir/src/forloop.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/forloop.c -o CMakeFiles/forloop.dir/src/forloop.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/forloop.c -o CMakeFiles/forloop.dir/src/forloop.c.s
 
 CMakeFiles/forloop.dir/src/forloop.c.o.requires:
 

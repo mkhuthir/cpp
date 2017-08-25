@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/mkhuthir/C/general
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,30 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named input
+# Target rules for targets named myheader
 
 # Build rule for target.
-input: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 input
-.PHONY : input
+myheader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 myheader
+.PHONY : myheader
 
 # fast build rule for target.
-input/fast:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/build
-.PHONY : input/fast
-
-#=============================================================================
-# Target rules for targets named hello2
-
-# Build rule for target.
-hello2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello2
-.PHONY : hello2
-
-# fast build rule for target.
-hello2/fast:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/build
-.PHONY : hello2/fast
+myheader/fast:
+	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/build
+.PHONY : myheader/fast
 
 #=============================================================================
 # Target rules for targets named fileview
@@ -150,17 +137,17 @@ fileview/fast:
 .PHONY : fileview/fast
 
 #=============================================================================
-# Target rules for targets named myheader
+# Target rules for targets named getoption
 
 # Build rule for target.
-myheader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myheader
-.PHONY : myheader
+getoption: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getoption
+.PHONY : getoption
 
 # fast build rule for target.
-myheader/fast:
-	$(MAKE) -f CMakeFiles/myheader.dir/build.make CMakeFiles/myheader.dir/build
-.PHONY : myheader/fast
+getoption/fast:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/build
+.PHONY : getoption/fast
 
 #=============================================================================
 # Target rules for targets named forloop
@@ -242,6 +229,33 @@ src/forloop.c.s:
 	$(MAKE) -f CMakeFiles/forloop.dir/build.make CMakeFiles/forloop.dir/src/forloop.c.s
 .PHONY : src/forloop.c.s
 
+src/getoption.o: src/getoption.c.o
+
+.PHONY : src/getoption.o
+
+# target to build an object file
+src/getoption.c.o:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/src/getoption.c.o
+.PHONY : src/getoption.c.o
+
+src/getoption.i: src/getoption.c.i
+
+.PHONY : src/getoption.i
+
+# target to preprocess a source file
+src/getoption.c.i:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/src/getoption.c.i
+.PHONY : src/getoption.c.i
+
+src/getoption.s: src/getoption.c.s
+
+.PHONY : src/getoption.s
+
+# target to generate assembly for a file
+src/getoption.c.s:
+	$(MAKE) -f CMakeFiles/getoption.dir/build.make CMakeFiles/getoption.dir/src/getoption.c.s
+.PHONY : src/getoption.c.s
+
 src/hello.o: src/hello.c.o
 
 .PHONY : src/hello.o
@@ -268,60 +282,6 @@ src/hello.s: src/hello.c.s
 src/hello.c.s:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.c.s
 .PHONY : src/hello.c.s
-
-src/hello2.o: src/hello2.cpp.o
-
-.PHONY : src/hello2.o
-
-# target to build an object file
-src/hello2.cpp.o:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/src/hello2.cpp.o
-.PHONY : src/hello2.cpp.o
-
-src/hello2.i: src/hello2.cpp.i
-
-.PHONY : src/hello2.i
-
-# target to preprocess a source file
-src/hello2.cpp.i:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/src/hello2.cpp.i
-.PHONY : src/hello2.cpp.i
-
-src/hello2.s: src/hello2.cpp.s
-
-.PHONY : src/hello2.s
-
-# target to generate assembly for a file
-src/hello2.cpp.s:
-	$(MAKE) -f CMakeFiles/hello2.dir/build.make CMakeFiles/hello2.dir/src/hello2.cpp.s
-.PHONY : src/hello2.cpp.s
-
-src/input.o: src/input.cpp.o
-
-.PHONY : src/input.o
-
-# target to build an object file
-src/input.cpp.o:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/src/input.cpp.o
-.PHONY : src/input.cpp.o
-
-src/input.i: src/input.cpp.i
-
-.PHONY : src/input.i
-
-# target to preprocess a source file
-src/input.cpp.i:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/src/input.cpp.i
-.PHONY : src/input.cpp.i
-
-src/input.s: src/input.cpp.s
-
-.PHONY : src/input.s
-
-# target to generate assembly for a file
-src/input.cpp.s:
-	$(MAKE) -f CMakeFiles/input.dir/build.make CMakeFiles/input.dir/src/input.cpp.s
-.PHONY : src/input.cpp.s
 
 src/myheader.o: src/myheader.c.o
 
@@ -383,12 +343,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... input"
 	@echo "... edit_cache"
-	@echo "... hello2"
-	@echo "... fileview"
+	@echo "... rebuild_cache"
 	@echo "... myheader"
+	@echo "... fileview"
+	@echo "... getoption"
 	@echo "... forloop"
 	@echo "... hello"
 	@echo "... src/fileview.o"
@@ -397,15 +356,12 @@ help:
 	@echo "... src/forloop.o"
 	@echo "... src/forloop.i"
 	@echo "... src/forloop.s"
+	@echo "... src/getoption.o"
+	@echo "... src/getoption.i"
+	@echo "... src/getoption.s"
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
 	@echo "... src/hello.s"
-	@echo "... src/hello2.o"
-	@echo "... src/hello2.i"
-	@echo "... src/hello2.s"
-	@echo "... src/input.o"
-	@echo "... src/input.i"
-	@echo "... src/input.s"
 	@echo "... src/myheader.o"
 	@echo "... src/myheader.i"
 	@echo "... src/myheader.s"

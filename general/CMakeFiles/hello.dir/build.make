@@ -60,15 +60,15 @@ include CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/src/hello.c.o: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/src/hello.c.o: src/hello.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mkhuthir/C/general/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hello.dir/src/hello.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/src/hello.c.o   -c /home/mkhuthir/C/general/src/hello.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/src/hello.c.o   -c /home/mkhuthir/C/general/src/hello.c
 
 CMakeFiles/hello.dir/src/hello.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello.dir/src/hello.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/hello.c > CMakeFiles/hello.dir/src/hello.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mkhuthir/C/general/src/hello.c > CMakeFiles/hello.dir/src/hello.c.i
 
 CMakeFiles/hello.dir/src/hello.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/src/hello.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/hello.c -o CMakeFiles/hello.dir/src/hello.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mkhuthir/C/general/src/hello.c -o CMakeFiles/hello.dir/src/hello.c.s
 
 CMakeFiles/hello.dir/src/hello.c.o.requires:
 
