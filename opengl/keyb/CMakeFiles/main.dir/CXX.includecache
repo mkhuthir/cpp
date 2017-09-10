@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/keyb/main.cpp
+/home/mkhuthir/C/opengl/keyb/main.cpp
 stdlib.h
 -
 GLUT/glut.h

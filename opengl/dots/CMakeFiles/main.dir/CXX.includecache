@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/particles/main.cpp
+/home/mkhuthir/C/opengl/dots/main.cpp
 cstdlib
 -
 GL/gl.h

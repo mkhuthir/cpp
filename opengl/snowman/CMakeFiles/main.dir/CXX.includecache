@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/snowman/main.cpp
+/home/mkhuthir/C/opengl/snowman/main.cpp
 stdlib.h
 -
 math.h

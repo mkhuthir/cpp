@@ -169,10 +169,10 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 GLUT_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-GLUT_Xi_LIBRARY:FILEPATH=GLUT_Xi_LIBRARY-NOTFOUND
+GLUT_Xi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libXi.so
 
 //Path to a library.
-GLUT_Xmu_LIBRARY:FILEPATH=GLUT_Xmu_LIBRARY-NOTFOUND
+GLUT_Xmu_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libXmu.so
 
 //Path to a library.
 GLUT_glut_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libglut.so

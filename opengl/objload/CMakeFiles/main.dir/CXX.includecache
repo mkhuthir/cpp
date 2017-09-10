@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/objload/main.cpp
+/home/mkhuthir/C/opengl/objload/main.cpp
 GL/gl.h
 -
 GL/glut.h

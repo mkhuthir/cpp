@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mkhuthir/cpp/opengl/snowman3/main.cpp" "/home/mkhuthir/cpp/opengl/snowman3/CMakeFiles/main.dir/main.cpp.o"
+  "/home/mkhuthir/C/opengl/snowman3/main.cpp" "/home/mkhuthir/C/opengl/snowman3/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

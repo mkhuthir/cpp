@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/line/main.cpp
+/home/mkhuthir/C/opengl/line/main.cpp
 stdio.h
 -
 stdlib.h

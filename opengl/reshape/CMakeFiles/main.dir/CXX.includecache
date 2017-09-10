@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mkhuthir/cpp/opengl/reshape/main.cpp
+/home/mkhuthir/C/opengl/reshape/main.cpp
 GL/glut.h
 -
 
