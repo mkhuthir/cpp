@@ -1,0 +1,3 @@
+use the following to install required tools/libs
+
+sudo apt-get install qt4-dev-tools
