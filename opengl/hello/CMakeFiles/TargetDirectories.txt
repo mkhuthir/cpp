@@ -1,3 +1,0 @@
-/home/mkhuthir/cpp/opengl/hello/CMakeFiles/rebuild_cache.dir
-/home/mkhuthir/cpp/opengl/hello/CMakeFiles/edit_cache.dir
-/home/mkhuthir/cpp/opengl/hello/CMakeFiles/main.dir
