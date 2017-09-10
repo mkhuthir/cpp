@@ -1,0 +1,6 @@
+use the following to install eSpeak lib
+
+
+sudo apt-get install libespeak-dev
+
+
