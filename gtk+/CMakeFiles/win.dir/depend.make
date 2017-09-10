@@ -318,7 +318,6 @@ CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkproperty.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkrectangle.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkrgba.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkscreen.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkseat.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkselection.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdktestutils.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gdk/gdkthreads.h
@@ -424,7 +423,6 @@ CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkcsssection.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkdebug.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkdialog.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkdnd.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkdragsource.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkdrawingarea.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkeditable.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkentry.h
@@ -437,7 +435,6 @@ CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkexpander.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilechooser.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilechooserbutton.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilechooserdialog.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilechoosernative.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilechooserwidget.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfilefilter.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkfixed.h
@@ -486,7 +483,6 @@ CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkmessagedialog.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkmodelbutton.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkmodules.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkmountoperation.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtknativedialog.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtknotebook.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkoffscreenwindow.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkorientable.h
@@ -526,10 +522,6 @@ CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkseparator.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkseparatormenuitem.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkseparatortoolitem.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtksettings.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkshortcutsgroup.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkshortcutssection.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkshortcutsshortcut.h
-CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkshortcutswindow.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtkshow.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtksizegroup.h
 CMakeFiles/win.dir/src/win.cpp.o: /usr/include/gtk-3.0/gtk/gtksizerequest.h
