@@ -1,1 +1,0 @@
-/usr/bin/gcc     CMakeFiles/forloop.dir/src/forloop.c.o  -o bin/forloop 

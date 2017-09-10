@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/getoption.dir/src/getoption.c.o  -o bin/getoption 

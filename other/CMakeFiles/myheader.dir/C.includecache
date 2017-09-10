@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mkhuthir/C/general/inc/myheader.h
+
+/home/mkhuthir/C/general/src/myheader.c
+../inc/myheader.h
+/home/mkhuthir/C/general/inc/myheader.h
+
+/home/mkhuthir/C/general/src/myheadermain.c
+stdio.h
+-
+../inc/myheader.h
+/home/mkhuthir/C/general/inc/myheader.h
+
