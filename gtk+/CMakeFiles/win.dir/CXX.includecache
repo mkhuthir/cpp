@@ -1609,8 +1609,6 @@ glib/gstring.h
 -
 
 /usr/include/glib-2.0/glib/gkeyfile.h
-glib/gbytes.h
--
 glib/gerror.h
 -
 
@@ -1658,8 +1656,6 @@ stdarg.h
 glib/gtypes.h
 -
 glib/gmacros.h
--
-glib/gvariant.h
 -
 
 /usr/include/glib-2.0/glib/gnode.h
@@ -1831,6 +1827,8 @@ glib/gbytes.h
 -
 
 /usr/include/glib-2.0/glib/gvarianttype.h
+glib/gmessages.h
+-
 glib/gtypes.h
 -
 
@@ -2005,8 +2003,6 @@ gdk/gdkrgba.h
 -
 gdk/gdkscreen.h
 -
-gdk/gdkseat.h
--
 gdk/gdkselection.h
 -
 gdk/gdktestutils.h
@@ -2079,8 +2075,6 @@ gdk/gdkevents.h
 -
 gdk/gdkdevicemanager.h
 -
-gdk/gdkseat.h
--
 
 /usr/include/gtk-3.0/gdk/gdkdisplaymanager.h
 gdk/gdktypes.h
@@ -2092,8 +2086,6 @@ gdk/gdkdisplay.h
 gdk/gdktypes.h
 -
 gdk/gdkdevice.h
--
-gdk/gdkevents.h
 -
 
 /usr/include/gtk-3.0/gdk/gdkenumtypes.h
@@ -2563,8 +2555,6 @@ gtk/gtkdialog.h
 -
 gtk/gtkdnd.h
 -
-gtk/gtkdragsource.h
--
 gtk/gtkdrawingarea.h
 -
 gtk/gtkeditable.h
@@ -2590,8 +2580,6 @@ gtk/gtkfilechooser.h
 gtk/gtkfilechooserbutton.h
 -
 gtk/gtkfilechooserdialog.h
--
-gtk/gtkfilechoosernative.h
 -
 gtk/gtkfilechooserwidget.h
 -
@@ -2687,8 +2675,6 @@ gtk/gtkmodules.h
 -
 gtk/gtkmountoperation.h
 -
-gtk/gtknativedialog.h
--
 gtk/gtknotebook.h
 -
 gtk/gtkoffscreenwindow.h
@@ -2766,14 +2752,6 @@ gtk/gtkseparatormenuitem.h
 gtk/gtkseparatortoolitem.h
 -
 gtk/gtksettings.h
--
-gtk/gtkshortcutsgroup.h
--
-gtk/gtkshortcutssection.h
--
-gtk/gtkshortcutsshortcut.h
--
-gtk/gtkshortcutswindow.h
 -
 gtk/gtkshow.h
 -
@@ -3032,8 +3010,6 @@ gio/gio.h
 
 /usr/include/gtk-3.0/gtk/gtkapplicationwindow.h
 gtk/gtkwindow.h
--
-gtk/gtkshortcutswindow.h
 -
 
 /usr/include/gtk-3.0/gtk/gtkaspectframe.h
