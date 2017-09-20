@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named draw
+
+# Build rule for target.
+draw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 draw
+.PHONY : draw
+
+# fast build rule for target.
+draw/fast:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/build
+.PHONY : draw/fast
+
+#=============================================================================
 # Target rules for targets named win
 
 # Build rule for target.
@@ -163,152 +176,179 @@ button/fast:
 .PHONY : button/fast
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named builder
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+builder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 builder
+.PHONY : builder
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+builder/fast:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/build
+.PHONY : builder/fast
 
-src/button.o: src/button.cpp.o
+src/builder.o: src/builder.c.o
+
+.PHONY : src/builder.o
+
+# target to build an object file
+src/builder.c.o:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/src/builder.c.o
+.PHONY : src/builder.c.o
+
+src/builder.i: src/builder.c.i
+
+.PHONY : src/builder.i
+
+# target to preprocess a source file
+src/builder.c.i:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/src/builder.c.i
+.PHONY : src/builder.c.i
+
+src/builder.s: src/builder.c.s
+
+.PHONY : src/builder.s
+
+# target to generate assembly for a file
+src/builder.c.s:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/src/builder.c.s
+.PHONY : src/builder.c.s
+
+src/button.o: src/button.c.o
 
 .PHONY : src/button.o
 
 # target to build an object file
-src/button.cpp.o:
-	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.cpp.o
-.PHONY : src/button.cpp.o
+src/button.c.o:
+	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.c.o
+.PHONY : src/button.c.o
 
-src/button.i: src/button.cpp.i
+src/button.i: src/button.c.i
 
 .PHONY : src/button.i
 
 # target to preprocess a source file
-src/button.cpp.i:
-	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.cpp.i
-.PHONY : src/button.cpp.i
+src/button.c.i:
+	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.c.i
+.PHONY : src/button.c.i
 
-src/button.s: src/button.cpp.s
+src/button.s: src/button.c.s
 
 .PHONY : src/button.s
 
 # target to generate assembly for a file
-src/button.cpp.s:
-	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.cpp.s
-.PHONY : src/button.cpp.s
+src/button.c.s:
+	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.c.s
+.PHONY : src/button.c.s
 
-src/hello.o: src/hello.cpp.o
+src/draw.o: src/draw.c.o
 
-.PHONY : src/hello.o
+.PHONY : src/draw.o
 
 # target to build an object file
-src/hello.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.o
-.PHONY : src/hello.cpp.o
+src/draw.c.o:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/src/draw.c.o
+.PHONY : src/draw.c.o
 
-src/hello.i: src/hello.cpp.i
+src/draw.i: src/draw.c.i
 
-.PHONY : src/hello.i
+.PHONY : src/draw.i
 
 # target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
+src/draw.c.i:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/src/draw.c.i
+.PHONY : src/draw.c.i
 
-src/hello.s: src/hello.cpp.s
+src/draw.s: src/draw.c.s
 
-.PHONY : src/hello.s
+.PHONY : src/draw.s
 
 # target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
+src/draw.c.s:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/src/draw.c.s
+.PHONY : src/draw.c.s
 
-src/label.o: src/label.cpp.o
+src/label.o: src/label.c.o
 
 .PHONY : src/label.o
 
 # target to build an object file
-src/label.cpp.o:
-	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.cpp.o
-.PHONY : src/label.cpp.o
+src/label.c.o:
+	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.c.o
+.PHONY : src/label.c.o
 
-src/label.i: src/label.cpp.i
+src/label.i: src/label.c.i
 
 .PHONY : src/label.i
 
 # target to preprocess a source file
-src/label.cpp.i:
-	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.cpp.i
-.PHONY : src/label.cpp.i
+src/label.c.i:
+	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.c.i
+.PHONY : src/label.c.i
 
-src/label.s: src/label.cpp.s
+src/label.s: src/label.c.s
 
 .PHONY : src/label.s
 
 # target to generate assembly for a file
-src/label.cpp.s:
-	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.cpp.s
-.PHONY : src/label.cpp.s
+src/label.c.s:
+	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.c.s
+.PHONY : src/label.c.s
 
-src/packing.o: src/packing.cpp.o
+src/packing.o: src/packing.c.o
 
 .PHONY : src/packing.o
 
 # target to build an object file
-src/packing.cpp.o:
-	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.o
-.PHONY : src/packing.cpp.o
+src/packing.c.o:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.c.o
+.PHONY : src/packing.c.o
 
-src/packing.i: src/packing.cpp.i
+src/packing.i: src/packing.c.i
 
 .PHONY : src/packing.i
 
 # target to preprocess a source file
-src/packing.cpp.i:
-	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.i
-.PHONY : src/packing.cpp.i
+src/packing.c.i:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.c.i
+.PHONY : src/packing.c.i
 
-src/packing.s: src/packing.cpp.s
+src/packing.s: src/packing.c.s
 
 .PHONY : src/packing.s
 
 # target to generate assembly for a file
-src/packing.cpp.s:
-	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.s
-.PHONY : src/packing.cpp.s
+src/packing.c.s:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.c.s
+.PHONY : src/packing.c.s
 
-src/win.o: src/win.cpp.o
+src/win.o: src/win.c.o
 
 .PHONY : src/win.o
 
 # target to build an object file
-src/win.cpp.o:
-	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.cpp.o
-.PHONY : src/win.cpp.o
+src/win.c.o:
+	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.c.o
+.PHONY : src/win.c.o
 
-src/win.i: src/win.cpp.i
+src/win.i: src/win.c.i
 
 .PHONY : src/win.i
 
 # target to preprocess a source file
-src/win.cpp.i:
-	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.cpp.i
-.PHONY : src/win.cpp.i
+src/win.c.i:
+	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.c.i
+.PHONY : src/win.c.i
 
-src/win.s: src/win.cpp.s
+src/win.s: src/win.c.s
 
 .PHONY : src/win.s
 
 # target to generate assembly for a file
-src/win.cpp.s:
-	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.cpp.s
-.PHONY : src/win.cpp.s
+src/win.c.s:
+	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/src/win.c.s
+.PHONY : src/win.c.s
 
 # Help Target
 help:
@@ -318,17 +358,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... draw"
 	@echo "... win"
 	@echo "... packing"
 	@echo "... label"
 	@echo "... button"
-	@echo "... hello"
+	@echo "... builder"
+	@echo "... src/builder.o"
+	@echo "... src/builder.i"
+	@echo "... src/builder.s"
 	@echo "... src/button.o"
 	@echo "... src/button.i"
 	@echo "... src/button.s"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
+	@echo "... src/draw.o"
+	@echo "... src/draw.i"
+	@echo "... src/draw.s"
 	@echo "... src/label.o"
 	@echo "... src/label.i"
 	@echo "... src/label.s"

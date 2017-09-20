@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/mkhuthir/C/gtk+
 CMAKE_BINARY_DIR = /home/mkhuthir/C/gtk+
 
 #=============================================================================
+# Target rules for target CMakeFiles/draw.dir
+
+# All Build rule for target.
+CMakeFiles/draw.dir/all:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/depend
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=5,6 "Built target draw"
+.PHONY : CMakeFiles/draw.dir/all
+
+# Include target in all.
+all: CMakeFiles/draw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/gtk+/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/gtk+/CMakeFiles 0
+.PHONY : CMakeFiles/draw.dir/rule
+
+# Convenience name for target.
+draw: CMakeFiles/draw.dir/rule
+
+.PHONY : draw
+
+# clean rule for target.
+CMakeFiles/draw.dir/clean:
+	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/clean
+.PHONY : CMakeFiles/draw.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/draw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/win.dir
 
 # All Build rule for target.
 CMakeFiles/win.dir/all:
 	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/depend
 	$(MAKE) -f CMakeFiles/win.dir/build.make CMakeFiles/win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=9,10 "Built target win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=11,12 "Built target win"
 .PHONY : CMakeFiles/win.dir/all
 
 # Include target in all.
@@ -103,7 +140,7 @@ clean: CMakeFiles/win.dir/clean
 CMakeFiles/packing.dir/all:
 	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/depend
 	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=7,8 "Built target packing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=9,10 "Built target packing"
 .PHONY : CMakeFiles/packing.dir/all
 
 # Include target in all.
@@ -140,7 +177,7 @@ clean: CMakeFiles/packing.dir/clean
 CMakeFiles/label.dir/all:
 	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/depend
 	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=5,6 "Built target label"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=7,8 "Built target label"
 .PHONY : CMakeFiles/label.dir/all
 
 # Include target in all.
@@ -177,7 +214,7 @@ clean: CMakeFiles/label.dir/clean
 CMakeFiles/button.dir/all:
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/depend
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=1,2 "Built target button"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=3,4 "Built target button"
 .PHONY : CMakeFiles/button.dir/all
 
 # Include target in all.
@@ -208,39 +245,39 @@ clean: CMakeFiles/button.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello.dir
+# Target rules for target CMakeFiles/builder.dir
 
 # All Build rule for target.
-CMakeFiles/hello.dir/all:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=3,4 "Built target hello"
-.PHONY : CMakeFiles/hello.dir/all
+CMakeFiles/builder.dir/all:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/depend
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mkhuthir/C/gtk+/CMakeFiles --progress-num=1,2 "Built target builder"
+.PHONY : CMakeFiles/builder.dir/all
 
 # Include target in all.
-all: CMakeFiles/hello.dir/all
+all: CMakeFiles/builder.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello.dir/rule: cmake_check_build_system
+CMakeFiles/builder.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/gtk+/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/builder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mkhuthir/C/gtk+/CMakeFiles 0
-.PHONY : CMakeFiles/hello.dir/rule
+.PHONY : CMakeFiles/builder.dir/rule
 
 # Convenience name for target.
-hello: CMakeFiles/hello.dir/rule
+builder: CMakeFiles/builder.dir/rule
 
-.PHONY : hello
-
-# clean rule for target.
-CMakeFiles/hello.dir/clean:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
-.PHONY : CMakeFiles/hello.dir/clean
+.PHONY : builder
 
 # clean rule for target.
-clean: CMakeFiles/hello.dir/clean
+CMakeFiles/builder.dir/clean:
+	$(MAKE) -f CMakeFiles/builder.dir/build.make CMakeFiles/builder.dir/clean
+.PHONY : CMakeFiles/builder.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/builder.dir/clean
 
 .PHONY : clean
 

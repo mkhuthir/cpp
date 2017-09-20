@@ -46,9 +46,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/draw.dir/DependInfo.cmake"
   "CMakeFiles/win.dir/DependInfo.cmake"
   "CMakeFiles/packing.dir/DependInfo.cmake"
   "CMakeFiles/label.dir/DependInfo.cmake"
   "CMakeFiles/button.dir/DependInfo.cmake"
-  "CMakeFiles/hello.dir/DependInfo.cmake"
+  "CMakeFiles/builder.dir/DependInfo.cmake"
   )
