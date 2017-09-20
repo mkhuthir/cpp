@@ -124,6 +124,19 @@ win/fast:
 .PHONY : win/fast
 
 #=============================================================================
+# Target rules for targets named packing
+
+# Build rule for target.
+packing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 packing
+.PHONY : packing
+
+# fast build rule for target.
+packing/fast:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/build
+.PHONY : packing/fast
+
+#=============================================================================
 # Target rules for targets named label
 
 # Build rule for target.
@@ -148,6 +161,19 @@ button: cmake_check_build_system
 button/fast:
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/build
 .PHONY : button/fast
+
+#=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
 
 src/button.o: src/button.cpp.o
 
@@ -176,6 +202,33 @@ src/button.cpp.s:
 	$(MAKE) -f CMakeFiles/button.dir/build.make CMakeFiles/button.dir/src/button.cpp.s
 .PHONY : src/button.cpp.s
 
+src/hello.o: src/hello.cpp.o
+
+.PHONY : src/hello.o
+
+# target to build an object file
+src/hello.cpp.o:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.o
+.PHONY : src/hello.cpp.o
+
+src/hello.i: src/hello.cpp.i
+
+.PHONY : src/hello.i
+
+# target to preprocess a source file
+src/hello.cpp.i:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.i
+.PHONY : src/hello.cpp.i
+
+src/hello.s: src/hello.cpp.s
+
+.PHONY : src/hello.s
+
+# target to generate assembly for a file
+src/hello.cpp.s:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/hello.cpp.s
+.PHONY : src/hello.cpp.s
+
 src/label.o: src/label.cpp.o
 
 .PHONY : src/label.o
@@ -202,6 +255,33 @@ src/label.s: src/label.cpp.s
 src/label.cpp.s:
 	$(MAKE) -f CMakeFiles/label.dir/build.make CMakeFiles/label.dir/src/label.cpp.s
 .PHONY : src/label.cpp.s
+
+src/packing.o: src/packing.cpp.o
+
+.PHONY : src/packing.o
+
+# target to build an object file
+src/packing.cpp.o:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.o
+.PHONY : src/packing.cpp.o
+
+src/packing.i: src/packing.cpp.i
+
+.PHONY : src/packing.i
+
+# target to preprocess a source file
+src/packing.cpp.i:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.i
+.PHONY : src/packing.cpp.i
+
+src/packing.s: src/packing.cpp.s
+
+.PHONY : src/packing.s
+
+# target to generate assembly for a file
+src/packing.cpp.s:
+	$(MAKE) -f CMakeFiles/packing.dir/build.make CMakeFiles/packing.dir/src/packing.cpp.s
+.PHONY : src/packing.cpp.s
 
 src/win.o: src/win.cpp.o
 
@@ -237,16 +317,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... win"
+	@echo "... packing"
 	@echo "... label"
 	@echo "... button"
-	@echo "... rebuild_cache"
+	@echo "... hello"
 	@echo "... src/button.o"
 	@echo "... src/button.i"
 	@echo "... src/button.s"
+	@echo "... src/hello.o"
+	@echo "... src/hello.i"
+	@echo "... src/hello.s"
 	@echo "... src/label.o"
 	@echo "... src/label.i"
 	@echo "... src/label.s"
+	@echo "... src/packing.o"
+	@echo "... src/packing.i"
+	@echo "... src/packing.s"
 	@echo "... src/win.o"
 	@echo "... src/win.i"
 	@echo "... src/win.s"

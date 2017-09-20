@@ -1,5 +1,7 @@
 /home/mkhuthir/C/gtk+/CMakeFiles/edit_cache.dir
+/home/mkhuthir/C/gtk+/CMakeFiles/rebuild_cache.dir
 /home/mkhuthir/C/gtk+/CMakeFiles/win.dir
+/home/mkhuthir/C/gtk+/CMakeFiles/packing.dir
 /home/mkhuthir/C/gtk+/CMakeFiles/label.dir
 /home/mkhuthir/C/gtk+/CMakeFiles/button.dir
-/home/mkhuthir/C/gtk+/CMakeFiles/rebuild_cache.dir
+/home/mkhuthir/C/gtk+/CMakeFiles/hello.dir
